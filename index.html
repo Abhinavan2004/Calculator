@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+</head>
+<link rel="stylesheet" href="./calci.css">
+<body>
+    <navbar class="panel">CALCULATOR</navbar>
+    <div class="container">
+    
+        <div class="calci">
+            <form onsubmit="return false;">
+                <div class="display">
+                    <input type="text" id="ans">
+                </div>
+                <div class="top_buttons">
+                    <button id="AC" onclick = "Clear()" >AC</button>
+                    <button id="DE" onclick = 'Clearone()'>DE</button>
+                    <button id="DOT" onclick = "adddigit('.')">.</button>
+                    <button id="Divide" onclick = "adddigit('/')">/</button>
+                </div>
+                <div class="top_buttons">
+                    <button id="Nine"  onclick = "adddigit('9')">9</button>
+                    <button id="Eight" onclick = "adddigit('8')">8</button>
+                    <button id="Seven" onclick = "adddigit('7')">7</button>
+                    <button id="Multi" onclick = "adddigit('*')">*</button>
+                </div>
+                <div class="top_buttons">
+                    <button id="Six" onclick = "adddigit('6')">6</button>
+                    <button id="Five" onclick = "adddigit('5')">5</button>
+                    <button id="Four" onclick = "adddigit('4')">4</button>
+                    <button id="Minus" onclick = "adddigit('-')">-</button>
+                </div>
+                <div class="top_buttons">
+                    <button id="Three" onclick = "adddigit('3')">3</button>
+                    <button id="Two" onclick = "adddigit('2')">2</button>
+                    <button id="One" onclick = "adddigit('1')">1</button>
+                    <button id="Plus" onclick = "adddigit('+')">+</button>
+                </div>
+                <div class="top_buttons">
+                    <button id="ZERO" onclick = "adddigit('0')">0</button>
+                    <button id="DZERO" onclick = "adddigit('00')">00</button>
+                    <button id="Equals" onclick = 'Equalss()'>=</button>
+                    <button id="Percent" onclick = "adddigit('%')">%</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./calci.js"></script>
+</body>
+</html>
