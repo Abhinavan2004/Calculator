@@ -18,7 +18,7 @@ To use the calculator, simply open the `index.html` file in a web browser. Then,
 
 ## Preview
 
-![Calculator Preview](assests/calciss.jpg)
+![Calculator Preview](assests/calciss.png)
 
 ## Development
 
