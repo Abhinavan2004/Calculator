@@ -17,8 +17,7 @@ This is a simple web-based calculator application built using HTML, CSS, and Jav
 To use the calculator, simply open the `index.html` file in a web browser. Then, you can click on the buttons to enter numbers and perform operations. The display will show the current expression as well as the result.
 
 ## Preview
-
-![Calculator Preview](![Screenshot 2024-06-03 001114](https://github.com/Abhinavan2004/Calculator/assets/143207723/6e1cc183-94b9-4723-9b02-544fc54f4147)
+(![Screenshot 2024-06-03 001114](https://github.com/Abhinavan2004/Calculator/assets/143207723/6e1cc183-94b9-4723-9b02-544fc54f4147)
 
 
 ## Development
